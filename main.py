@@ -4,11 +4,11 @@ import pandas
 # TODO 1. create a dict from the CSV
 df = pandas.read_csv('nato_phonetic_alphabet.csv')
 index_phonetic_alphabet = df.set_index('letter')['code'].to_dict()
-# name = input("Enter the name you need in your alphabet: ")
+name = input("Enter the name you need in your alphabet: ")
 #name ='didiy'
 
-def word():
-    name = input("Enter the name you need in your alphabet: ")
+# def word(user_input):
+#     name = input("Enter the name you need in your alphabet: ")
 
 # TODO 2. The user writes text and each letter is translated into a phonetic alphabet:
 new_phonetic_name = []
